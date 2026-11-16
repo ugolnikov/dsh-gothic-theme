@@ -14,10 +14,10 @@ A gothic theme for the [DeepSeek Harness](https://github.com/deepseek-ai/deepsee
 The plugin is a Cordis bundle (`dsh.bundle.patch` + a Web client half). Install the package directory into a profile:
 
 ```bash
-dsh plugin --profile web add https://github.com/ugolnikov/dsh-gothic-theme
+dsh plugin --profile web add github:ugolnikov/dsh-gothic-theme
 ```
 
-Or add it through the Plugin Hub / Plugin Manager by its GitHub source URL. After installation the theme applies immediately; the Appearance preference stays on `light`/`dark`/`system` and the theme supplies both palettes' values.
+With the npm package published, the shorter form is `dsh plugin --profile web add dsh-gothic-theme`. After installation the theme applies immediately; the Appearance preference stays on `light`/`dark`/`system` and the theme supplies both palettes' values.
 
 ## What it changes
 
